@@ -11,7 +11,7 @@ nav{
     background-color: var(--purple_hills);
     display:flex;
 
-    margin: 0 auto;
+    margin: 10px auto;
     width: auto
     overflow: hidden;
     position: fixed;
