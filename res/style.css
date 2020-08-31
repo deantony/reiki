@@ -14,18 +14,13 @@ nav{
 
 }
 
-nav a{
-    float: left;
 
-
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
-}
 nav a{
     float: left;
     display: block;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
 
     text-decoration-line: none;
     color: var(--font_color);
