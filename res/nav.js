@@ -1,6 +1,6 @@
-const home = "/C:/xampp/htdocs/upload/reiki/index.html";
-const about = "/C:/xampp/htdocs/upload/reiki/about.html";
-const book = "/C:/xampp/htdocs/upload/reiki/book.html"
+const home = "/reiki/index.html";
+const about = "/reiki/about.html";
+const book = "/reiki/book.html"
 
 const nav_home = document.getElementById("nav_home");
 const nav_about = document.getElementById("nav_about");
