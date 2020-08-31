@@ -11,11 +11,15 @@ nav{
 
     margin: 6px 0px;
     height: 50px;
-}
-nav:hover{
-    scale: var(--scaler);
+
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
 }
 nav a{
+    float: left;
+    display: block;
     text-decoration-line: none;
     color: var(--font_color);
 
@@ -28,6 +32,7 @@ nav a{
     box-shadow: var(--shadow);
 }
 nav a:hover{
+    transform: var(--trans);
     background-color: var(--purple_hills_hover);
     scale: var(--scaler);
 }
@@ -39,6 +44,7 @@ body{
     --font_color: white;
 
     --scaler: 1.15;
+    --trans: 3s;
 
     --shadow: 0 4px 12px 0 var(--black_alpha);
 
@@ -69,7 +75,7 @@ body{
     background-color: var(--purple_hills);
 
     box-shadow: var(--shadow);
-    transition: .3s;
+    transition: var(--trans);
 
     padding: 2px 16px;
 }
