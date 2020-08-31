@@ -9,6 +9,7 @@ header{
 nav{
     text-align:center;
     background-color: var(--purple_hills);
+    display:flex;
 
     margin: 0 auto;
     width: 100%;
@@ -19,7 +20,6 @@ nav{
 }
 nav a{
     float: left;
-    display: block;
     text-decoration-line: none;
     color: var(--font_color);
     transition: var(--trans);
