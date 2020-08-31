@@ -38,7 +38,7 @@ if (url === home){
     }
     nav_book.onmouseenter = function(){
         nav_book.style.cursor = "default";
-        nav_book.style.cursor = scaler;
+        nav_book.style.scale = scaler;
         nav_book.style.backgroundColor = purple_hills;
     }
 }
