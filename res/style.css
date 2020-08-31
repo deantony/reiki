@@ -17,8 +17,7 @@ nav a{
     float: left;
     text-decoration-line: none;
     color: var(--font_color);
-
-    line-height: 50px;
+    
     padding: 10px;
     margin: 5px 10px;
 
