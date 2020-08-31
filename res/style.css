@@ -18,7 +18,8 @@ nav{
     position: fixed;
 }
 nav a{
-    float: left
+    float: left;
+    display: block;
     text-decoration-line: none;
     color: var(--font_color);
 
