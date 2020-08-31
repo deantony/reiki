@@ -28,7 +28,11 @@ nav a{
     width: auto;
     box-shadow: var(--shadow);
 }
-
+nav a:hover{
+    transform: var(--trans);
+    background-color: var(--purple_hills_hover);
+    scale: var(--scaler);
+}
 body{
     --purple_steel: rgb(25, 15, 25);
     --purple_hills_hover: rgb(100, 25, 100);
