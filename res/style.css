@@ -12,7 +12,7 @@ nav{
     display:flex;
 
     margin: 0 auto;
-    width: 100%;
+    width: auto
     overflow: hidden;
     position: fixed;
     box-shadow: var(--shadow);
@@ -25,7 +25,7 @@ nav a{
     transition: var(--trans);
     padding: 10px 14 px;
     margin: 5px;
-    width: 50%;
+    width: auto;
     box-shadow: var(--shadow);
 }
 nav a:hover{
