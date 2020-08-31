@@ -41,7 +41,7 @@ body{
     --font_color: white;
 
     --scaler: 1.15;
-    --trans: 2s;
+    --trans: 1s;
 
     --shadow: 0 4px 12px 0 var(--black_alpha);
 
