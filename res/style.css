@@ -7,13 +7,18 @@ header{
     box-shadow: var(--shadow);
 }
 nav{
-    float: left;
     background-color: var(--purple_hills);
 
     margin: 6px 0px;
     height: 50px;
+
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
 }
 nav a{
+    float: left
     text-decoration-line: none;
     color: var(--font_color);
 
