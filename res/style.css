@@ -25,6 +25,7 @@ nav a{
     transition: var(--trans);
     padding: 10px 14 px;
     margin: 5px;
+    width: 33%;
     box-shadow: var(--shadow);
 }
 nav a:hover{
