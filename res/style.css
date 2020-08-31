@@ -74,7 +74,7 @@ body{
     box-shadow: var(--shadow);
     transition: var(--trans);
 
-    padding: 2px 16px;
+    padding: 10px 16px;
 }
 .card:hover{
     background-color: var(--purple_hills_hover);
