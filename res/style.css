@@ -12,10 +12,9 @@ nav{
     margin: 6px 0px;
     height: 50px;
 }
-nav:hover{
-    scale: var(--scaler);
-}
+
 nav a{
+    float: left;
     text-decoration-line: none;
     color: var(--font_color);
 

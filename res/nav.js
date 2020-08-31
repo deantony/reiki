@@ -16,3 +16,23 @@ if (url === home){
         nav_home.style.cursor = "default";
     }
 }
+else if (url === about){
+    nav_about.style.backgroundColor = "rgb(25, 15, 25)";
+    nav_about.style.boxShadow = "inset 0 4px 12px 0 rgba(0, 0, 0, .5)"
+    nav_about.onclick = function(){
+        return false;
+    }
+    nav_about.onmouseenter = function(){
+        nav_about.style.cursor = "default";
+    }
+}
+else if (url === book){
+    nav_book.style.backgroundColor = "rgb(25, 15, 25)";
+    nav_book.style.boxShadow = "inset 0 4px 12px 0 rgba(0, 0, 0, .5)"
+    nav_book.onclick = function(){
+        return false;
+    }
+    nav_book.onmouseenter = function(){
+        nav_book.style.cursor = "default";
+    }
+}
