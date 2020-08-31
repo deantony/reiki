@@ -6,7 +6,7 @@ const nav_home = document.getElementById("nav_home");
 const nav_about = document.getElementById("nav_about");
 const nav_book = document.getElementById("nav_book");
 
-const scaler = 1.15 * -1;
+const scaler = 1;
 
 let url = window.location.pathname;
 
