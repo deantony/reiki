@@ -7,6 +7,7 @@ const nav_about = document.getElementById("nav_about");
 const nav_book = document.getElementById("nav_book");
 
 const scaler = 1;
+const purple_hills = "rgb(50, 17, 50)";
 
 let url = window.location.pathname;
 
@@ -18,6 +19,7 @@ if (url === home){
     nav_home.onmouseenter = function(){
         nav_home.style.cursor = "default";
         nav_home.style.scale = scaler;
+        nav_home.style.backgroundColor = purple_hills; 
     }
 }else if (url === about){
     nav_about.style.boxShadow = "inset 0 4px 12px 0 rgba(0, 0, 0, .5)";
@@ -26,6 +28,7 @@ if (url === home){
     }
     nav_about.onmouseenter = function(){
         nav_about.style.cursor = "default";
+        nav_about.style.scale = scaler;
     }
 }else if (url === book){
     nav_book.style.boxShadow = "inset 0 4px 12px 0 rgba(0, 0, 0, .5)";
@@ -34,5 +37,6 @@ if (url === home){
     }
     nav_book.onmouseenter = function(){
         nav_book.style.cursor = "default";
+        nav_book.style.cursor = scaler;
     }
 }
