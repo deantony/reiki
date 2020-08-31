@@ -32,6 +32,7 @@ nav a{
     box-shadow: var(--shadow);
 }
 nav a:hover{
+    transform: var(--trans);
     background-color: var(--purple_hills_hover);
     scale: var(--scaler);
 }
@@ -43,6 +44,7 @@ body{
     --font_color: white;
 
     --scaler: 1.15;
+    --trans: 3s;
 
     --shadow: 0 4px 12px 0 var(--black_alpha);
 
@@ -73,7 +75,7 @@ body{
     background-color: var(--purple_hills);
 
     box-shadow: var(--shadow);
-    transition: .3s;
+    transition: var(--trans);
 
     padding: 2px 16px;
 }
