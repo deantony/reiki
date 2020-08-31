@@ -29,6 +29,7 @@ nav a{
 nav a:hover{
     background-color: var(--purple_hills_hover);
     scale: var(--scaler);
+    transition: var(--trans);
 }
 body{
     --purple_steel: rgb(25, 15, 25);
@@ -38,6 +39,7 @@ body{
     --font_color: white;
 
     --scaler: 1.15;
+    --trans: 2s;
 
     --shadow: 0 4px 12px 0 var(--black_alpha);
 
@@ -68,7 +70,7 @@ body{
     background-color: var(--purple_hills);
 
     box-shadow: var(--shadow);
-    transition: .3s;
+    transition: var(--trans);
 
     padding: 2px 16px;
 }
