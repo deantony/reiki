@@ -29,6 +29,7 @@ if (url === home){
     nav_about.onmouseenter = function(){
         nav_about.style.cursor = "default";
         nav_about.style.scale = scaler;
+        nav_about.style.backgroundColor = purple_hills;
     }
 }else if (url === book){
     nav_book.style.boxShadow = "inset 0 4px 12px 0 rgba(0, 0, 0, .5)";
@@ -38,5 +39,6 @@ if (url === home){
     nav_book.onmouseenter = function(){
         nav_book.style.cursor = "default";
         nav_book.style.cursor = scaler;
+        nav_book.style.backgroundColor = purple_hills;
     }
 }
