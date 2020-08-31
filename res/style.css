@@ -7,34 +7,30 @@ header{
     box-shadow: var(--shadow);
 }
 nav{
+    text-align:center;
     background-color: var(--purple_hills);
 
-    margin: 6px 0px;
+    margin: 0 auto;
+    width: 100%
     height: 50px;
+    overflow: hidden;
+    position: fixed;
 
 }
 nav a{
     float: left;
     display: block;
-    overflow: hidden;
-    position: fixed;
-    text-align: center;
-
     text-decoration-line: none;
     color: var(--font_color);
-    
+    transition: var(--trans);
     padding: 10px;
     margin: 5px 10px;
-
-    width: 20%;
-
     box-shadow: var(--shadow);
 }
 nav a:hover{
     transform: var(--trans);
     background-color: var(--purple_hills_hover);
     scale: var(--scaler);
-    transition: var(--trans);
 }
 body{
     --purple_steel: rgb(25, 15, 25);
