@@ -9,7 +9,6 @@ const nav_book = document.getElementById("nav_book");
 let url = window.location.pathname;
 
 if (url === home){
-    nav_home.style.backgroundColor = "rgb(25, 15, 25)";
     nav_home.style.boxShadow = "inset 0 4px 12px 0 rgba(0, 0, 0, .5)";
     nav_home.onclick = function(){
         return false;
