@@ -6,7 +6,7 @@ header{
 
     box-shadow: var(--shadow);
 }
-.nav{
+nav{
     text-align:center;
     background-color: var(--purple_hills);
     display:flex;
@@ -18,7 +18,7 @@ header{
     box-shadow: var(--shadow);
 
 }
-.nav a{
+nav a{
     float: left;
     text-decoration-line: none;
     color: var(--font_color);
@@ -28,7 +28,7 @@ header{
     width: auto;
     box-shadow: var(--shadow);
 }
-.nav a:hover{
+nav a:hover{
     transform: var(--trans);
     background-color: var(--purple_hills_hover);
     scale: var(--scaler);
