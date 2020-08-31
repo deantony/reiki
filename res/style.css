@@ -11,7 +11,7 @@ nav{
     background-color: var(--purple_hills);
     display:flex;
 
-    margin: 10px;
+    margin: 10px 0 10px 0;
     width: auto
     overflow: hidden;
     position: fixed;
@@ -25,7 +25,7 @@ nav a{
     transition: var(--trans);
     padding: 10px 14 px;
     margin: 5px;
-    width: auto;
+    width: 25%;
     box-shadow: var(--shadow);
 }
 nav a:hover{
@@ -75,7 +75,7 @@ body{
     transition: var(--trans);
 
     padding: 2px 16px;
-    margin: 6px;
+    margin: 50px;
 }
 .card:hover{
     background-color: var(--purple_hills_hover);
