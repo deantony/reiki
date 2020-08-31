@@ -7,13 +7,11 @@ header{
     box-shadow: var(--shadow);
 }
 nav{
+    float: left;
     background-color: var(--purple_hills);
 
     margin: 6px 0px;
     height: 50px;
-}
-nav:hover{
-    scale: var(--scaler);
 }
 nav a{
     text-decoration-line: none;
